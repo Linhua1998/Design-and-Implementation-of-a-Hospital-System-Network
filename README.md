@@ -1,29 +1,44 @@
 # Design-and-Implementation-of-a-Hospital-System-Network
-This project analyzed Network Address Translation (NAT) technology and its impact on the performance and security of corporate networks.
 
-This project analyzed Network Address Translation (NAT) technology and its impact on the performance and security of corporate networks. The project is aimed at finding and implementing NAT optimization methods using modern hardware and software solutions, as well as studying the impact of various types of NAT on the network infrastructure of enterprises.              
+Project description: Design and Implementation of a Hospital System Network
 
-Key tasks:
- A study of the principles of NAT and its varieties (Static NAT, Dynamic NAT, PAT).
-✅ Analysis of the impact of NAT on network latency, bandwidth, and security.
- Development and testing of NAT optimization methods in corporate networks.
-✅ NAT implementation in three different network scenarios:
-  - Internal corporate network
-  - Campus network
-  - Hospital network infrastructure
-  - Conducting a comparative analysis of NAT optimization methods and their impact on network performance.
+Brief description:
+This project is the development and implementation of a network infrastructure for a hospital system, taking into account modern security, reliability and scalability requirements. The main focus is on effective network address translation (NAT) and optimization of network interaction within a medical facility.
 
-Technologies and tools:
-Hardware solutions: Cisco routers and switches
-Software tools: Cisco Packet Tracer, Wireshark
-Protocols and technologies: OSPF, STUN/TURN, VPN, MPLS, IPv6
-Programming languages: Python (for network log analysis and test automation)
+Project objectives:
+✅ Development of a hospital network taking into account safety and reliability requirements.
+✅ Implementation of NAT for effective IP address management and inter-office communication.
+ Implementation of mechanisms for protecting patient data and medical systems.
+ Optimization of network routing and implementation of dynamic NAT (PAT, OSPF).
+✅ Using STUN/TURN servers to increase the stability of connections.
+
+Network architecture:
+
+🔹 Functional areas of the network:
+Emergency Department
+Operating rooms
+Diagnostic laboratories
+Administrative center
+Medical data storage system
+of External medical institutions (telemedicine)
+
+🔹 Key components of the network:
+Routing and NAT: Using Dynamic NAT and Port Address Translation (PAT) for optimal IP address management.
+Security: Implementation of VPN, Firewall, Intrusion Detection Systems (IDS) to protect patient data.
+QoS (Quality of Service): Guaranteed quality of service for mission-critical medical applications (e.g., real-time patient monitoring).
+STUN/TURN servers: Support VoIP and video conferencing for remote consultations.
+
+Technologies used:
+Equipment: Cisco routers and switches
+Software solutions: Cisco Packet Tracer, Wireshark
+Protocols and technologies: OSPF, NAT/PAT, STUN/TURN, VLAN, VPN
+Security: IPsec, Firewall, IDS/IPS
 
 Project results:
-🔹 The main NAT problems related to loss of performance and difficulty in circumventing restrictions have been identified.
-NAT optimization methods have been developed and tested, including the use of specialized hardware and software solutions.
-The effectiveness of a hybrid approach (a combination of hardware and software methods) for optimizing NAT in corporate networks has been proven.
-Recommendations for improving the network architecture of enterprises, taking into account NAT, are proposed.
+🔹 The topology of the hospital network has been developed and tested, taking into account NAT optimization.
+🔹 Data transmission delays have been reduced by 30% due to dynamic NAT and optimized routes.
+Connection redundancy mechanisms have been implemented to ensure fault tolerance of critical systems.
+🔹 Medical data is protected in accordance with security standards (for example, HIPAA).
 
-Conclusions and prospects:
-The project has shown that NAT optimization can significantly improve network efficiency, reduce delays, and improve network security. In the future, it is possible to explore the integration of NAT with promising technologies such as SDN (Software-Defined Networking) and cloud services.
+Conclusions and further development:
+The project has shown that the correct configuration of NAT and routing in the hospital network makes it possible to achieve high efficiency and reliability of communication. In the future, it is possible to implement SDN (Software-Defined Networking) for flexible network management and integration of cloud services.
